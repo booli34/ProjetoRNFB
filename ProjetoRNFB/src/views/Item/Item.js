@@ -38,7 +38,7 @@ function Item({navigation , route}) {
         
         <View style={estiloItem.header}>
             <TouchableOpacity onPress={voltar}>
-            <MaterialIcons name="arrow-back" size={24} color="white"/>
+            <MaterialIcons name="arrow-back" size={24} color="black"/>
             </TouchableOpacity>
             <Text style={estiloItem.texto}>Item</Text>
         </View>
@@ -46,33 +46,33 @@ function Item({navigation , route}) {
         <View style={estiloItem.formularioContainer}>
             
             <View style={estiloItem.campoContainer}>
-                <FontAwesome5 name="address-book" size={26} color="white" />
+                <FontAwesome5 name="address-book" size={26} color="black" />
                 <TextInput 
                 style={estiloItem.campo}
                 placeholder="Nome..."
-                placeholderTextColor="#FFF"
+                placeholderTextColor="#000"
                 onChangeText={nome => setItem({...item, nome})}
                 value={item.nome}
                 />
             </View>
 
             <View style={estiloItem.campoContainer}>
-                <FontAwesome5 name="archway" size={26} color="white" />
+                <FontAwesome5 name="archway" size={26} color="black" />
                 <TextInput 
                 style={estiloItem.campo}
                 placeholder="Sala"
-                placeholderTextColor="#FFF"
+                placeholderTextColor="#000"
                 onChangeText={sala => setItem({...item, sala})}
                 value={item.sala}
                 />
             </View>
 
             <View style={estiloItem.campoContainer}>
-                <FontAwesome5 name="child" size={26} color="white" />
+                <FontAwesome5 name="child" size={26} color="black" />
                 <TextInput 
                 style={estiloItem.campo}
                 placeholder="Turma"
-                placeholderTextColor="#FFF"
+                placeholderTextColor="#000"
                 onChangeText={turma => setItem({...item, turma})}
                 value={item.turma}
                 />
@@ -82,15 +82,15 @@ function Item({navigation , route}) {
 
 
                 <TouchableOpacity onPress={() => salvar(item)} style={estiloItem.botaoContainer}>
-                    <LinearGradient colors={['#0000FF', '#2E2EFE',]} style={estiloItem.botao}>
-                        <MaterialIcons name="save" size={28} color="white" />
+                    <LinearGradient colors={['#ababab', '#ababab',]} style={estiloItem.botao}>
+                        <MaterialIcons name="save" size={28} color="black" />
                     </LinearGradient>
 
                 </TouchableOpacity>
 
                 <TouchableOpacity onPress={() => remover(item)} style={estiloItem.botaoContainer}>
-                    <LinearGradient colors={['#0000FF', '#2E2EFE']} style={estiloItem.botao}>
-                        <MaterialIcons name="delete" size={28} color="white" />
+                    <LinearGradient colors={['#ababab', '#ababab']} style={estiloItem.botao}>
+                        <MaterialIcons name="delete" size={28} color="black" />
                     </LinearGradient>
 
                 </TouchableOpacity>

@@ -43,7 +43,7 @@ function Colecao({ navigation }) {
                 <TouchableOpacity onPress={voltar}>
                     <MaterialIcons name="arrow-back" size={24} color="white"/>
                 </TouchableOpacity>
-                <Text style={estiloColecao.texto}>Coleção</Text>
+                <Text style={estiloColecao.texto}>Lista</Text>
 
                 <TouchableOpacity onPress={adicionar}>
                     <MaterialIcons name="add" size={24} color="white" />

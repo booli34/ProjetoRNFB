@@ -5,7 +5,7 @@ const estiloInicial = StyleSheet.create({
      flex: 1,
      justifyContent: 'center',
      alignItems: 'center',
-     backgroundColor: '#1a1aff',
+     backgroundColor: '#ababab',
    },
    header: {
       height: 50,

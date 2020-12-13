@@ -2,16 +2,16 @@ import firebase from 'firebase';
 import 'firebase/firestore';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCtM9pVQ00katWMhlDvQOA-ZoS2Ltiu1rg",
-    authDomain: "projetorn-f6f96.firebaseapp.com",
-    databaseURL: "https://projetorn-f6f96.firebaseio.com",
-    projectId: "projetorn-f6f96",
-    storageBucket: "projetorn-f6f96.appspot.com",
-    messagingSenderId: "967882797045",
-    appId: "1:967882797045:web:aaab7571424f523e18fabc",
-    measurementId: "G-Q0KB7Z0ZP7"
+    apiKey: "AIzaSyDzs5BaxwL4g5l4g02nWlnkQWgN1UfAhcQ",
+    authDomain: "colecionaveis03.firebaseapp.com",
+    databaseURL: "https://colecionaveis03.firebaseio.com",
+    projectId: "colecionaveis03",
+    storageBucket: "colecionaveis03.appspot.com",
+    messagingSenderId: "455226946820",
+    appId: "1:455226946820:web:c80a057e5a474d5cb3cc51",
+    measurementId: "G-BKR74YDKT7"
   };
 
-var app = firebase.initializeApp(firebaseConfig);
+  var app = firebase.initializeApp(firebaseConfig);
 
-export const conexaoFS = app.firestore();
+  export const conexaoFS = app.firestore();

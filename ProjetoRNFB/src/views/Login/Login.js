@@ -32,13 +32,13 @@ function Login({ navigation }) {
             <ImageBackground style={estiloLogin.fundo} source={require('../../../assets/imagens/fundo.png')}>            
 
                 <View style={estiloLogin.logoContainer}>
-                    <LinearGradient colors={['#FFFFFF', '#FF0000', '#000000']} style={estiloLogin.logo}>
+                    <LinearGradient colors={['#ababab', '#000', '#ababab']} style={estiloLogin.logo}>
                         <AntDesign name="book" size={32} color="white" />
                     </LinearGradient> 
                 </View>
 
                 <View style={estiloLogin.campoContainer}>
-                    <MaterialIcons name="person" size={24} color="red" />
+                    <MaterialIcons name="person" size={24} color="white" />
                     <TextInput
                         style={estiloLogin.campo}
                         placeholder="Login"
@@ -48,7 +48,7 @@ function Login({ navigation }) {
                 </View>
 
                 <View style={estiloLogin.campoContainer}>
-                    <MaterialIcons name="vpn-key" size={24} color="red" />
+                    <MaterialIcons name="vpn-key" size={24} color="white" />
                     <TextInput
                         style={estiloLogin.campo}
                         placeholder="Senha"
@@ -58,7 +58,7 @@ function Login({ navigation }) {
                 </View>
 
                 <TouchableOpacity onPress={entrar}>
-                    <LinearGradient colors={['#FFFFFF', '#FF0000', '#000000']} style={estiloLogin.botaoLinearGradient}>
+                    <LinearGradient colors={['#ababab', '#000', '#ababab']} style={estiloLogin.botaoLinearGradient}>
                         <MaterialCommunityIcons name="send" size={24} color="white" />                   
                         <Text style={estiloLogin.botaoTexto}> Entrar </Text>
                     </LinearGradient>                

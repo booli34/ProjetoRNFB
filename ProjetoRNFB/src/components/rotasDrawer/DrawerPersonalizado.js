@@ -10,9 +10,9 @@ function DrawerPersonalizado(props) {
       <View style={estiloRotasDrawer.fotoContainer}>
         <Image 
           style={estiloRotasDrawer.foto}
-          source={require('../../../assets/imagens/gui.jpg')}
+          source={require('../../../assets/imagens/fotodiscord.png')}
         />
-        <Text style={estiloRotasDrawer.nome}>Gui Mala 10</Text>
+        <Text style={estiloRotasDrawer.nome}>Lucas</Text>
       </View>
 
       <DrawerItemList {...props}/>

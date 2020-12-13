@@ -4,12 +4,12 @@ const estiloItem = StyleSheet.create({
   
     container: {   
       flex: 1,
-      backgroundColor:'#14417b'
+      backgroundColor:'#FFF'
    },
 
    header: {
       height:50,
-      backgroundColor: "#14417b",
+      backgroundColor: "#ababab",
       flexDirection: 'row',
       alignItems: 'center',
       justifyContent: 'space-between',
@@ -23,7 +23,7 @@ const estiloItem = StyleSheet.create({
 
    texto: {
        fontSize: 20,
-       color: "#FFF",
+       color: "#000",
        fontWeight: 'bold',
        marginRight: 150
    },
@@ -49,12 +49,12 @@ const estiloItem = StyleSheet.create({
    campo: {
        widht: '100%',
        fontSize: 18,
-       color: '#FFF',
+       color: '#000',
        backgroundColor: 'F0FFFF',
        marginLeft: 15,
        padding: 10,
        borderWidth: 2,
-       borderColor: '#FFF',
+       borderColor: '#000',
        borderRadius: 5,
    },
 
@@ -62,12 +62,12 @@ const estiloItem = StyleSheet.create({
        widht: '100%',
        height: 90,
        fontSize: 18,
-       color: '#FFF',
+       color: '#000',
        backgroundColor: '#000',
        marginLeft: 15,
        padding: 10,
        borderWidth:2,
-       borderColor: '#FFF',
+       borderColor: '#000',
        borderRadius: 5,
        textAlignVertical: 'top',
    },
@@ -85,7 +85,7 @@ const estiloItem = StyleSheet.create({
    botaoContainer: {
        alignItems: 'center',
        padding: 5,
-
+        
    },
 
    botao: {

@@ -26,7 +26,7 @@ const RotasDrawer = () => {
       />
 
       <Drawer.Screen 
-        name="Colecao" 
+        name="Lista" 
         component={Colecao}
         options={{
           drawerIcon: ({color, size}) => (
