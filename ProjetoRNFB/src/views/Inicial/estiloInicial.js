@@ -5,7 +5,7 @@ const estiloInicial = StyleSheet.create({
      flex: 1,
      justifyContent: 'center',
      alignItems: 'center',
-     backgroundColor: '#14417b',
+     backgroundColor: '#1a1aff',
    },
    header: {
       height: 50,
@@ -34,7 +34,7 @@ const estiloInicial = StyleSheet.create({
    },
    botaoTexto: {
       fontSize: 22,
-      color: '#000',
+      color: '#0000ff',
    },
 });
 

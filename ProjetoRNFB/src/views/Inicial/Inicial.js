@@ -28,8 +28,8 @@ function Inicial({ navigation }) {
            
 
                 <TouchableOpacity onPress={abrirColecao}>
-                    <ImageBackground style={estiloInicial.botaoBackground} source={require('../../../assets/imagens/foto1.jpg')}>
-                        <Text style={estiloInicial.botaoTexto}>Perfil</Text>                    
+                    <ImageBackground style={estiloInicial.botaoBackground} source={require('../../../assets/imagens/lista.png')}>
+                        <Text style={estiloInicial.botaoTexto}>Lista de Alunos</Text>                    
                     </ImageBackground>
                 </TouchableOpacity>
 
@@ -37,7 +37,7 @@ function Inicial({ navigation }) {
 
                 <TouchableOpacity onPress={abrirItem}>
                     <ImageBackground style={estiloInicial.botaoBackground} source={require('../../../assets/imagens/foto2.jpg')}>
-                        <Text style={estiloInicial.botaoTexto}>Aluno</Text>                    
+                        <Text style={estiloInicial.botaoTexto}>Adicionar Alunos</Text>                    
                     </ImageBackground>
                 </TouchableOpacity>
 
